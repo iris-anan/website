@@ -1,0 +1,61 @@
+/*************** Tag Selector ***************/
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Muli';
+  font-size: 20px;
+}
+
+h1 {
+  font-family: 'Sacramento';
+  font-size: 100px;
+  margin: 0 auto 0 auto;
+}
+
+h2{
+  font-family: 'Muli';
+  font-weight: bolder;
+  font-size: 50px;
+}
+/*************** Class Selector ***************/
+.top-container{
+  background-color: aliceblue;
+  position: relative;
+  padding-top: 200px;
+}
+
+.middle-container{
+}
+
+.bottom-container{
+}
+
+.alias{
+  margin-top: 0px;
+  font-family: 'Muli';
+  font-size: 30px;
+}
+
+.top-flower{
+  position: absolute;
+  height: 200px;
+  top: 50px;
+  right: 20%;
+}
+
+.bottom-flower{
+  position: absolute;
+  height: 150px;
+  left: 20%;
+  bottom: 70%;
+}
+
+.flowers{
+  position: relative;
+  bottom: 50px;
+  width: 100%
+}
+
+.profile-pic{
+  width: 300px;
+}
