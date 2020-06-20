@@ -30,8 +30,9 @@ a{
 
 hr{
   border-style: none;
-  border-bottom: 5px dotted;
-  width: 20%
+  border-bottom: 5px dotted #C6DA9A;
+  width: 20%;
+  margin: 50px auto;
 }
 /*************** Class Selector ***************/
 .top-container{
@@ -40,10 +41,14 @@ hr{
   padding-top: 200px;
 }
 
+.middle-container{
+  margin: 100px 0 25px 0;
+}
+
 .bottom-container{
   background-color: #FAE19E;
   word-spacing: 30px;
-  padding-top: 20px;
+  padding: 20px 0 5px 0;
 }
 
 .alias{
@@ -111,44 +116,40 @@ hr{
   word-spacing: 30px;
 }
 
+.footer-link:hover{
+  color: white
+}
 .copyright{
   word-spacing: 0;
+  font-family: 'Nunito';
+  font-size: 0.75REM;
+  padding-top: 20px;
 }
 
-.BUTTON_ISK {
-   background: #56B4F0;
-   background-image: -webkit-linear-gradient(top, #56B4F0, #56B4F0);
-   background-image: -moz-linear-gradient(top, #56B4F0, #56B4F0);
-   background-image: -ms-linear-gradient(top, #56B4F0, #56B4F0);
-   background-image: -o-linear-gradient(top, #56B4F0, #56B4F0);
-   background-image: linear-gradient(to bottom, #56B4F0, #56B4F0);
+.btn {
    -webkit-border-radius: 20px;
    -moz-border-radius: 20px;
    border-radius: 20px;
    color: #FFFFFF;
-   font-family: Open Sans;
-   font-size: 40px;
+   font-family: 'Nunito';
+   font-size: 34px;
    font-weight: 100;
-   padding: 40px;
-   box-shadow: 1px 1px 20px 0px #000000;
-   -webkit-box-shadow: 1px 1px 20px 0px #000000;
-   -moz-box-shadow: 1px 1px 20px 0px #000000;
-   text-shadow: 1px 1px 20px #000000;
-   border: solid #337FED 1px;
+   padding: 24px;
+   background-color: #514E44;
+   box-shadow: 1px 1px 20px 0px #27241E;
+   -webkit-box-shadow: 1px 1px 20px 0px #27241E;
+   -moz-box-shadow: 1px 1px 20px 0px #27241E;
+   text-shadow: 1px 1px 20px #3B3423;
+   border: solid #2C2C2C 1px;
    text-decoration: none;
    display: inline-block;
    cursor: pointer;
    text-align: center;
 }
 
-.BUTTON_ISK:hover {
-   border: solid #000000 1px;
-   background: #CFCA8E;
-   background-image: -webkit-linear-gradient(top, #CFCA8E, #73704B);
-   background-image: -moz-linear-gradient(top, #CFCA8E, #73704B);
-   background-image: -ms-linear-gradient(top, #CFCA8E, #73704B);
-   background-image: -o-linear-gradient(top, #CFCA8E, #73704B);
-   background-image: linear-gradient(to bottom, #CFCA8E, #73704B);
+.btn:hover {
+   background: #CCBC5D;
+   border: solid #CCBC5D 1px;
    -webkit-border-radius: 20px;
    -moz-border-radius: 20px;
    border-radius: 20px;
