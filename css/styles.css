@@ -1,4 +1,4 @@
-/*************** Tag Selector ***************/
+/* Overall Website */
 body {
   margin: 0;
   text-align: center;
@@ -6,116 +6,110 @@ body {
   font-size: 20px;
 }
 
-h1 {
-  font-family: 'Sacramento';
-  font-size: 100px;
-  margin: 0 auto 0 auto;
-}
-
-h2{
-  font-family: 'Nunito';
-  font-weight: bolder;
-  font-size: 50px;
-  margin: 20px auto 0 auto;
-}
-
-h3{
-  color: #BC8346;
-  margin: 0;
-}
-
-a{
-  color: #644422;
-}
-
-hr{
-  border-style: none;
-  border-bottom: 5px dotted #C6DA9A;
-  width: 20%;
-  margin: 50px auto;
-}
-/*************** Class Selector ***************/
-.top-container{
+/* Landing Page */
+#top-container{
   background-color: aliceblue;
-  position: relative;
-  padding-top: 200px;
-}
+  text-align: center;
+  padding: 200px 0 0 0;
 
-.middle-container{
-  margin: 100px 0 25px 0;
 }
-
-.bottom-container{
-  background-color: #FAE19E;
-  word-spacing: 30px;
-  padding: 20px 0 5px 0;
+.intro {
+  font-family: 'Sacramento';
+  font-size: 8rem;
+  font-weight: bold;
+  margin: 5px auto 0 auto;
 }
-
 .alias{
   margin: 0 auto 0 auto;
   font-family: 'Muli';
   font-size: 30px;
 }
-
 .top-flower{
   position: absolute;
-  height: 30%;
-  top: 50px;
-  right: 20%;
+  height: 40%;
+  top: 7%;
+  right: 15%;
 }
-
 .bottom-flower{
   position: absolute;
-  height: 20%;
+  height: 25%;
   top: 20%;
   left: 20%;
 }
-
 .flowers{
   bottom: 50px;
   width: 100%
 }
 
-.profile-pic{
-  width: 300px;
+/* Profile Section */
+.middle-container{
+  margin: 100px 0 25px 0;
+  text-align: center;
 }
-
-.dashboard{
-  width: 20%;
-  float: left;
-  margin: 10px 20px auto auto;
-}
-
-.python{
-  width: 20%;
-  float: left;
-  margin: 10px 20px auto auto;
-}
-
-.sql{
-  width: 15%;
-  float: left;
-  margin: 8px 40px auto 20px;
-}
-
 .skill-row{
   width: 70%;
-  margin: 40px auto 0 auto;
+  margin: 50px auto 0 auto;
   text-align: left;
   line-height: 1.5;
 }
-
-.contact-me{
-  line-height: 2;
+.profile-hd{
+  font-family: 'Nunito';
+  font-weight: bold;
+  font-size: 50px;
+  margin: 20px auto 10px auto;
+}
+.text{
+  font-family: 'Muli';
+  font-size: 1.1rem;
+}
+.divider{
+  border-style: none;
+  border-bottom: 5px dotted #C6DA9A;
+  width: 20%;
+  margin: 50px auto;
+}
+.sub-head{
+  font-family: 'Muli';
+  color: #BC8346;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.profile-pic{
+  width: 300px;
+}
+.dashboard{
+  width: 20%;
+  float: left;
+  margin-right: 20px;
+}
+.sql{
+  width: 13%;
+  float: left;
+  margin: 5px 55px auto 30px;
+}
+.python{
+  width: 20%;
+  float: left;
+  margin: 10px 25px auto auto;
 }
 
+.contact-me{
+  line-height: 4;
+}
+/* Footer Section */
+.bottom-container{
+  background-color: #FAE19E;
+  word-spacing: 30px;
+  padding: 20px 0 5px 0;
+  text-align: center;
+}
 .footer-link{
   font-family: 'Nunito';
+  color: #644422;
   font-weight: bold;
   text-decoration: none;
   word-spacing: 30px;
 }
-
 .footer-link:hover{
   color: white
 }
@@ -124,34 +118,4 @@ hr{
   font-family: 'Nunito';
   font-size: 0.75REM;
   padding-top: 20px;
-}
-
-.btn {
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   color: #FFFFFF;
-   font-family: 'Nunito';
-   font-size: 34px;
-   font-weight: 100;
-   padding: 24px;
-   background-color: #514E44;
-   box-shadow: 1px 1px 20px 0px #27241E;
-   -webkit-box-shadow: 1px 1px 20px 0px #27241E;
-   -moz-box-shadow: 1px 1px 20px 0px #27241E;
-   text-shadow: 1px 1px 20px #3B3423;
-   border: solid #2C2C2C 1px;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
-}
-
-.btn:hover {
-   background: #CCBC5D;
-   border: solid #CCBC5D 1px;
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   text-decoration: none;
 }

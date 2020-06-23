@@ -5,7 +5,8 @@
   <meta charset="utf-8">
   <title>Iris Ananthset - a web designer</title>
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sacramento|Muli|Nunito">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Muli&family=Nunito:wght@400;800&family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="icon"
     href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAPv/AACi/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAgAAACAAIQASAAIAAhAAAAABIAABAAIiIAAQAAACIRESIAACIAIREREgAiAQIRERERIBAAAhEREREgAAACERERESAAAQIRERERIBAiACERERIAIgAAIhERIgAAABAAIiIAAQAAIQAAAAASAAIAAhABIAAgAAACAAAgAAD73wAAuZ0AAM/zAADcOwAA8A8AADAMAACgBQAA4AcAAOAHAACgBQAAMAwAAPAPAADcOwAAz/MAALmdAAD73wAA"
     type="image/x-icon" />
@@ -13,9 +14,9 @@
 </head>
 
 <body>
-  <div class="top-container">
+  <div class="container-fluid" id="top-container">
     <img class="top-flower" src="images/flower.png" alt="flower-img">
-    <h1>I'm Iris.</h1>
+    <h1 class="intro">I'm Iris.</h1>
     <p class="alias">a programmer.</p>
     <img class="bottom-flower" src="images/flower.png" alt="flower-img">
     <img class="flowers" src="images/flowers.png" alt="flowers-img">
@@ -23,36 +24,37 @@
 
   <div class="middle-container">
     <div class="profile">
-      <img class="profile-pic" src="images/icon.jpg" alt="profile-pic">
-      <h2>Hello.</h2>
-      <p>I've always loved building things, which is why I fell in love with coding and design.</p>
+      <img class="profile-pic" src="images/icon.png" alt="profile-pic">
+      <h2 class="profile-hd">Hello.</h2>
+      <p class="text">I've always loved building things, which is why I fell in love with coding and design.</p>
     </div>
-    <hr>
+    <hr class="divider">
+
     <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="dashboard" src="images/dashboard.png" alt="dash-pic">
-        <h3>Data Visualization</h3>
-        <p>I turn data into insights. I am a visual learner, so I display data on graphs and tables to make it digestible for everyone.</p>
-      </div>
-      <div class="skill-row">
-        <img class="sql" src="images/sql.png" alt="">
-        <h3>SQL</h3>
-        <p>Data is typically stored in databases. To retrieve data and get quick insights, I have to write queries.</p>
-      </div>
-      <div class="skill-row">
-        <img class="python" src="images/python.png" alt="">
-        <h3>Python</h3>
-        <p>In order to tell the computer what I want it to do, I had to learn how to communicate with it.</p>
-      </div>
+      <h2 class="profile-hd">My Skills.</h2>
+        <div class="skill-row">
+          <img class="dashboard" src="images/dashboard.png" alt="dash-pic">
+          <h3 class="sub-head">Data Visualization</h3>
+          <p class="text">I turn data into insights. I am a visual learner, so I display data on graphs and tables to make it digestible for everyone.</p>
+        </div>
+        <div class="skill-row">
+          <img class="sql" src="images/sql.png" alt="">
+          <h3 class="sub-head">SQL</h3>
+          <p class="text">Data is typically stored in databases. To retrieve data and get quick insights, I have to write queries.</p>
+        </div>
+        <div class="skill-row">
+          <img class="python" src="images/python.png" alt="">
+          <h3 class="sub-head">Python</h3>
+          <p class="text">In order to tell the computer what I want it to do, I had to learn how to communicate with it.</p>
+        </div>
     </div>
 
-    <br><hr>
+    <br><hr class="divider">
     <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>If you want to get to know more about me.</h3>
-      <p>Have an opportunity in data analytics or web development? Let's connect!</p>
-      <a class="btn" href="mailto:iiananthset@gmail.com">CONTACT ME</a>
+      <h2 class="profile-hd">Get In Touch</h2>
+      <h3 class="sub-head">If you want to get to know more about me.</h3>
+      <p class="text">Have an opportunity in data analytics or web development? Let's connect!</p>
+      <a class="btn btn-secondary" role="button" href="mailto:iiananthset@gmail.com">CONTACT ME</a>
     </div>
   </div>
 
