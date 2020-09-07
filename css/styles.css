@@ -2,7 +2,7 @@
 body {
   margin: 0;
   text-align: center;
-  font-family: 'Muli';
+  font-family: 'Raleway';
   font-size: 20px;
 }
 
@@ -13,10 +13,10 @@ h1 {
 }
 
 h2{
-  font-family: 'Nunito';
-  font-weight: bolder;
+  font-family: 'Dancing Script';
+  font-weight: 600;
   font-size: 50px;
-  margin: 20px auto 0 auto;
+  margin: 0 auto 0 auto;
 }
 
 h3{
@@ -32,7 +32,7 @@ hr{
   border-style: none;
   border-bottom: 5px dotted #C6DA9A;
   width: 20%;
-  margin: 50px auto;
+  margin: 30px auto;
 }
 
 /* Top Container */
@@ -79,13 +79,13 @@ hr{
 .dashboard{
   width: 20%;
   float: left;
-  margin: 10px 20px auto auto;
+  margin: 10px 20px 30px auto;
 }
 
 .python{
   width: 20%;
   float: left;
-  margin: 10px 20px auto auto;
+  margin: 10px 20px 30px auto;
 }
 
 .sql{
@@ -113,7 +113,7 @@ hr{
 }
 
 .footer-link{
-  font-family: 'Nunito';
+  font-family: 'Raleway';
   font-weight: bold;
   text-decoration: none;
   word-spacing: 30px;
@@ -134,7 +134,7 @@ hr{
    -moz-border-radius: 5px;
    border-radius: 20px;
    color: #FFFFFF;
-   font-family: 'Nunito';
+   font-family: 'Raleway';
    font-size: 15px;
    font-weight: 100;
    padding:7px;
